@@ -1,4 +1,4 @@
-$(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function(){ 
   var arr = ["Пятерочка",
               "Строительный Рынок",
               "ТPЦ Пушкаревское Кольцо",
