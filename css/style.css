@@ -65,11 +65,16 @@
 }
 
 .popup-choose__popup__close {
-  content: url(../images/close.png);
   position: absolute;
   top: 25px;
   right: 25px;
   transition: all 200ms;
+  background: url(../images/close.png) no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 25px;
+  height: 25px;
 }
 
 .popup-choose__popup__content {
