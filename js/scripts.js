@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', function(){
  
   var ul = document.querySelector('ul.popup-choose__popup__content');
   var new_array = arr.map(function callback(currentValue, index) {
-      ul.innerHTML +='<li><input id="elem'+ index +'" type="checkbox" class="checkbox" /><label for="elem'+ index +'"></label><span>'+ currentValue +'</span></li>';
+      ul.innerHTML +='<li><input id="elem'+ index +'" type="checkbox" class="checkbox" /><label for="elem'+ index +'"><div class="popup-checkbox"></div>'+ currentValue +'</label></li>';
   });
 });
